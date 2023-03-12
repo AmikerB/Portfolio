@@ -20,19 +20,19 @@ const Footer = () => {
                     </div>
                     <div className="phone">
                         <h4>
-                            <FontAwesomeIcon icon={faMobile} />
+                            <FontAwesomeIcon className="icons" icon={faMobile} />
                             +44 7738398290</h4>
                     </div>
                     <div className="email">
-                        <h4><FontAwesomeIcon icon={faEnvelope} />
+                        <h4><FontAwesomeIcon className="icons" icon={faEnvelope} />
                             best.amiker@gmail.com</h4>
                     </div>
                 </div>
 
                 <div className="right">
-                    <div className="socials">
-                        <FontAwesomeIcon icon={faLinkedin} />
-                        <FontAwesomeIcon icon={faGithub} />
+                    <div className="social">
+                        <FontAwesomeIcon className="icons" icon={faLinkedin} />
+                        <FontAwesomeIcon className="icons" icon={faGithub} />
                     </div>
                 </div>
             </div>
