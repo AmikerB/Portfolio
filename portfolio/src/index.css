@@ -3,6 +3,8 @@
 :root {
   --primary: rgb(3, 27, 3);
   --secondary: rgb(249, 229, 232);
+  --border: rgb(1, 18, 1);
+
 }
 
 
@@ -32,7 +34,7 @@ ul {
 .btn {
   appearance: none;
   background-color: var(--primary);
-  border: 2px solid #1A1A1A;
+  border: 2px solid var(--border);
   border-radius: 15px;
   box-sizing: border-box;
   color: whitesmoke;
@@ -42,7 +44,7 @@ ul {
   font-size: 16px;
   font-weight: 600;
   line-height: normal;
-  margin: 0;
+  margin: 0.5rem;
   min-height: 60px;
   min-width: 0;
   outline: none;
@@ -53,7 +55,6 @@ ul {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 100%;
   will-change: transform;
 }
 
@@ -74,17 +75,17 @@ ul {
 .btn-light {
   appearance: none;
   background-color: transparent;
-  border: 2px solid #1A1A1A;
+  border: 2px solid var(--border);
   border-radius: 15px;
   box-sizing: border-box;
-  color: #3B3B3B;
+  color: var(--secondary);
   cursor: pointer;
   display: inline-block;
   font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16px;
   font-weight: 600;
   line-height: normal;
-  margin: 0;
+  margin: 0.5rem;
   min-height: 60px;
   min-width: 0;
   outline: none;
@@ -95,8 +96,8 @@ ul {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 100%;
   will-change: transform;
+  backdrop-filter: blur(5px);
 }
 
 .btn-light:disabled {
@@ -105,7 +106,7 @@ ul {
 
 .btn-light:hover {
   color: var(--secondary);
-  background-color: #1A1A1A;
+  background-color: var(--primary);
   box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
