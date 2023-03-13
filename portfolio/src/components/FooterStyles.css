@@ -52,11 +52,14 @@ p {
     margin-right: 2rem;
 }
 
+.social .icons:hover {
+    color: yellow
+}
+
 /* add hover effect to icons */
 
 @media screen and (max-width: 640px) {
     .footer-container {
         grid-template-columns: 1fr;
-
     }
 }
