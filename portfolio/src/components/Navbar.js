@@ -6,18 +6,21 @@ import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
-
+    // event listener to take user to page they clicked on
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
 
     // navbar color when scroll down 
     const [color, setColor] = useState(false);
+    const [textColor, setTextColor] = useState(false);
     const changeColor = () => {
         // if window is less than of equal to 100 pixels then set navbar background color
         if (window.scrollY >= 100) {
             setColor(true);
+            setTextColor(true)
         } else {
             setColor(false);
+            setTextColor(false)
         }
     }
     window.addEventListener("scroll", changeColor);
@@ -25,7 +28,7 @@ const Navbar = () => {
     return (
         <div className={color ? "header header-bg" : "header"}>
             <Link to="/">
-                <h1>Portfolio</h1>
+                <h1 className={textColor ? "content content-light" : "content"}>Portfolio</h1>
             </Link>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
                 <li>

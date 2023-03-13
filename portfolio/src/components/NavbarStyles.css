@@ -10,9 +10,18 @@
     z-index: 10;
 }
 
+
 .header-bg {
     background-color: rgba(3, 27, 3, 0.85);
     transition: 0.5s;
+}
+
+.content {
+    color: var(--dark);
+}
+
+.content-light {
+    color: var(--light)
 }
 
 .nav-menu {
@@ -23,10 +32,8 @@
     padding: 0 1rem;
 }
 
-
-/* sort this */
-.nav-menu li:hover {
-    color: red;
+.header ul li:hover a {
+    color: var(--bright);
 }
 
 .nav-menu li a {

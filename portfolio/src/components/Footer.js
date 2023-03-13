@@ -6,9 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLocationDot, faMobile } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
-import emoji from 'react-easy-emoji';
-
-
 const Footer = () => {
     return (
         <div className="footer">
@@ -22,7 +19,7 @@ const Footer = () => {
                     </div>
                     <div className="phone">
                         <a href="tel:07738398290">
-                            {emoji('\u{1F4F1}')}
+                            <FontAwesomeIcon className="icons" icon={faMobile} />
                             +44 7738398290</a>
                     </div>
                     <div className="email">
@@ -39,7 +36,7 @@ const Footer = () => {
                         <a href="https://github.com/AmikerB">
                             <FontAwesomeIcon className="icons" icon={faGithub} />
                         </a>
-                        <a href="">
+                        <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2Famikerbest%2F%3Ffbclid%3DIwAR1KCKLmRt9wzF7tIwFX8Q4XNBYTVWiaFXKOgyFpjeVe8hqQZeS191M43cE&h=AT2GFFnMkS9a86U6lavq1pPABchYI7ce7rYYoEsdnCoymjEKuTJdKGwWw63hMGZ-4Ylpfzl-pavMfDJsVvt-7Z5Aup3QzN0ScHcX41Dna_TvtY4o_sa47Kl7vxTeKwVTvvFV5omNgYfUBagyexqHxA">
                             <FontAwesomeIcon className="icons" icon={faInstagram} />
                         </a>
                     </div>

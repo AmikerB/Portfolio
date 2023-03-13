@@ -4,6 +4,10 @@
     color: var(--light)
 }
 
+.footer a:hover {
+    color: var(--bright)
+}
+
 .phone .icons:hover,
 .email .icons:hover {
     color: var(--bright)
