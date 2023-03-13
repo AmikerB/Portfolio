@@ -30,18 +30,18 @@ const Navbar = () => {
             <Link to="/">
                 <h1 className={textColor ? "content content-light" : "content"}>Portfolio</h1>
             </Link>
-            <ul className={click ? "nav-menu active" : "nav-menu"}>
+            <ul className={click ? "nav-menu active" : "nav-menu"} >
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link className={textColor ? "content content-light" : "content"} to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/About">About</Link>
+                    <Link className={textColor ? "content content-light" : "content"} to="/About">About</Link>
                 </li>
                 <li>
-                    <Link to="/Projects">Projects</Link>
+                    <Link className={textColor ? "content content-light" : "content"} to="/Projects">Projects</Link>
                 </li>
                 <li>
-                    <Link to="/Contact">Contact</Link>
+                    <Link className={textColor ? "content content-light" : "content"} to="/Contact">Contact</Link>
                 </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
