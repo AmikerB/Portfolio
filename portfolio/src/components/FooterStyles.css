@@ -56,9 +56,10 @@
 }
 
 .icons {
-    font-size: 25px;
+    font-size: 50px;
     color: var(--light);
     margin-right: 2rem;
+    margin-bottom: 10px;
 }
 
 .social .icons:hover {

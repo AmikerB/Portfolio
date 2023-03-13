@@ -4,14 +4,13 @@ import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLocationDot, faMobile } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
         <div className="footer">
             <div className="footer-container ">
 
-                <div className="navTop">
+                {/* <div className="navTop">
                     <div className="social">
                         <a href="https://www.linkedin.com/in/amikerbest/">
                             <FontAwesomeIcon className="icons" icon={faLinkedin} />
@@ -23,7 +22,7 @@ const Footer = () => {
                             <FontAwesomeIcon className="icons" icon={faInstagram} />
                         </a>
                     </div>
-                </div>
+                </div> */}
                 <div className="navBottom">
                     <div className="location">
                         <FontAwesomeIcon className="icons" icon={faLocationDot} />

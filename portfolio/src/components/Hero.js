@@ -17,7 +17,7 @@ const Hero = () => {
                 <h1>Frontend Engineer</h1>
                 <div>
                     <Link to="/projects" className="btn">Projects</Link>
-                    <Link to="/contact" className="btn">Contact</Link>
+                    <a href="https://github.com/AmikerB" className="btn">GitHub</a>
                 </div>
             </div>
         </div>

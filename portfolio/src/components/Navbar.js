@@ -41,6 +41,9 @@ const Navbar = () => {
                     <Link className={textColor ? "content content-light" : "content"} to="/Projects">Projects</Link>
                 </li>
                 <li>
+                    <a className={textColor ? "content content-light" : "content"} href="https://github.com/AmikerB">GitHub</a>
+                </li>
+                <li>
                     <Link className={textColor ? "content content-light" : "content"} to="/Contact">Contact</Link>
                 </li>
             </ul>

@@ -1,10 +1,13 @@
 .bottom {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    /* adjust as needed */
+    padding: 30px;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.bottom h1 {
+    color: var(--light);
+    text-align: center;
+    margin-bottom: 12px;
 }
 
 .skills {
@@ -12,29 +15,13 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 5px;
-    margin-top: 20px;
+    margin: 20px;
 }
 
-.skills .icons {
-    font-size: 60px;
-    margin-right: 1rem;
-}
-
-.skills p {
-    font-size: 24px;
+p {
+    font-size: 16px;
     text-align: center;
     margin: 0;
-}
-
-.html,
-.css,
-.js,
-.react,
-.node,
-.testing {
-    text-align: center;
-    margin: 1rem;
 }
 
 @media screen and (max-width: 1040px) {
