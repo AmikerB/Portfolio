@@ -4,7 +4,7 @@ import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLocationDot, faMobile } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 
 const Footer = () => {
@@ -31,8 +31,15 @@ const Footer = () => {
 
                 <div className="right">
                     <div className="social">
-                        <FontAwesomeIcon className="icons" icon={faLinkedin} />
-                        <FontAwesomeIcon className="icons" icon={faGithub} />
+                        <a href="https://www.linkedin.com/in/amikerbest/">
+                            <FontAwesomeIcon className="icons" icon={faLinkedin} />
+                        </a>
+                        <a href="https://github.com/AmikerB">
+                            <FontAwesomeIcon className="icons" icon={faGithub} />
+                        </a>
+                        <a href="">
+                            <FontAwesomeIcon className="icons" icon={faInstagram} />
+                        </a>
                     </div>
                 </div>
             </div>
