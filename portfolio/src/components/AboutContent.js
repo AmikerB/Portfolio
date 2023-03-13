@@ -11,7 +11,7 @@ const AboutContent = () => {
                 <h1>Amiker Best</h1>
                 <p>A bit about me</p>
                 <a href={MyCv} target="_blank" rel="noopener noreferrer">
-                    <button className="btn cv-btn">CV</button>
+                    <button className="btn-light cv-btn">CV</button>
                 </a>
             </div>
             <div className="right">

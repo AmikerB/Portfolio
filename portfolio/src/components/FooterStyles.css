@@ -25,36 +25,34 @@
 }
 
 .footer-container {
-    max-width: 1140px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 40px;
-}
-
-.left {
-    height: 100%;
-    max-width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    align-items: center;
 }
 
-.location {
+.navTop {
     display: flex;
-    margin-bottom: 0.8rem;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-.location p {
-    line-height: 30px;
-}
-
-.right {
-    height: 100%;
-    max-width: 100%;
+.navBottom {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.location p,
+.email a p,
+.phone a p {
+    margin: 1rem;
+}
+
+.location .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .icons {
@@ -66,8 +64,6 @@
 .social .icons:hover {
     color: var(--bright)
 }
-
-/* add hover effect to icons */
 
 @media screen and (max-width: 640px) {
     .footer-container {

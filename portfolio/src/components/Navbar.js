@@ -35,7 +35,7 @@ const Navbar = () => {
                     <Link className={textColor ? "content content-light" : "content"} to="/">Home</Link>
                 </li>
                 <li>
-                    <Link className={textColor ? "content content-light" : "content"} to="/About">About</Link>
+                    <Link className={textColor ? "content content-light" : "content"} to="/About">About Me</Link>
                 </li>
                 <li>
                     <Link className={textColor ? "content content-light" : "content"} to="/Projects">Projects</Link>

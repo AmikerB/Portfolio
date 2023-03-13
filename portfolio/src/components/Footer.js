@@ -10,25 +10,8 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="footer-container ">
-                <div className="left">
-                    <div className="location">
-                        <FontAwesomeIcon className="icons" icon={faLocationDot} />
-                        <div>
-                            <p>London</p>
-                        </div>
-                    </div>
-                    <div className="phone">
-                        <a href="tel:07738398290">
-                            <FontAwesomeIcon className="icons" icon={faMobile} />
-                            +44 7738398290</a>
-                    </div>
-                    <div className="email">
-                        <a href="mailto:best.amiker@gmail.com"><FontAwesomeIcon className="icons" icon={faEnvelope} />
-                            best.amiker@gmail.com</a>
-                    </div>
-                </div>
 
-                <div className="right">
+                <div className="navTop">
                     <div className="social">
                         <a href="https://www.linkedin.com/in/amikerbest/">
                             <FontAwesomeIcon className="icons" icon={faLinkedin} />
@@ -41,6 +24,31 @@ const Footer = () => {
                         </a>
                     </div>
                 </div>
+                <div className="navBottom">
+                    <div className="location">
+                        <FontAwesomeIcon className="icons" icon={faLocationDot} />
+                        <div>
+                            <p>London</p>
+                        </div>
+                    </div>
+                    <div className="email">
+                        <a href="mailto:best.amiker@gmail.com"><FontAwesomeIcon className="icons" icon={faEnvelope} />
+                            <div>
+                                <p>best.amiker@gmail.com</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div className="phone">
+                        <a href="tel:07738398290">
+                            <FontAwesomeIcon className="icons" icon={faMobile} />
+                            <div>
+                                <p>+44 7738398290</p>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
             </div>
         </div>
     )

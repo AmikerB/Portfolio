@@ -1,24 +1,37 @@
-.hero-img {
+.mask2 {
     width: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    height: 60vh;
+    height: 75vh;
     position: relative;
 }
 
-.hero-img::before {
-    content: "";
-    background-image: url(https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80);
-    background-size: cover;
-    background-position: center top;
-    height: 100%;
+.img2 {
     width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.mask2::after {
+    content: "";
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1;
+    /* darkens the hero image */
+    background-color: var(--primary);
+    opacity: 0.5;
 }
 
-.heading {
+.hero2 {
+    height: 75%;
+    width: 100%;
+}
+
+.heading h1,
+.heading p {
+    color: var(--dark);
     width: 100%;
     height: 100%;
     display: flex;
@@ -26,6 +39,28 @@
     justify-content: center;
     align-items: center;
 }
+
+.hero2 .heading {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    text-align: center;
+}
+
+.hero2 .heading h1 {
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+}
+
+.hero .heading p {
+    color: var(--dark);
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+
 
 .hero-img h1 {
     font-size: 2.4rem;
