@@ -21,7 +21,6 @@ body {
 
 h1,
 h4,
-p,
 a {
   color: var(--dark);
   text-decoration: none;
@@ -29,6 +28,12 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.dotted-line {
+  background-color: #E8E7E3;
+  border-top: 10px dotted white;
+  margin-bottom: 30px;
 }
 
 .btn {
