@@ -43,6 +43,7 @@
 }
 
 .hero .content p {
+    color: var(--dark);
     font-size: 1.4rem;
     font-weight: 200;
     text-transform: uppercase;

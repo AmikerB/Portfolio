@@ -23,6 +23,12 @@
     padding: 0 1rem;
 }
 
+
+/* sort this */
+.nav-menu li:hover {
+    color: red;
+}
+
 .nav-menu li a {
     font-size: 1.2rem;
     font-weight: 500;

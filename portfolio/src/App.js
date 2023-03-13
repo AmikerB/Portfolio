@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./index.css";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Projects from "./components/ProjectCards"; // Update path to Projects
+import Projects from "./pages/Projects"; // Update path to Projects
 import Contact from "./pages/Contact";
 
 

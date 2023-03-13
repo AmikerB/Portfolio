@@ -2,7 +2,7 @@ import "./HeroStyles.css";
 
 import React from 'react';
 
-import IntroImg from "../assets/images/pexels-loel-balangauan-2400843.jpg";
+import IntroImg from "../assets/images/pexels-photo-403571.jpeg";
 
 import { Link } from "react-router-dom";
 
@@ -17,7 +17,7 @@ const Hero = () => {
                 <h1>Frontend Engineer</h1>
                 <div>
                     <Link to="/projects" className="btn">Projects</Link>
-                    <Link to="/contact" className="btn btn-light">Contact</Link>
+                    <Link to="/contact" className="btn">Contact</Link>
                 </div>
             </div>
         </div>

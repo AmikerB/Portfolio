@@ -6,6 +6,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faLocationDot, faMobile } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
+import emoji from 'react-easy-emoji';
+
 
 const Footer = () => {
     return (
@@ -19,13 +21,13 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="phone">
-                        <h4>
-                            <FontAwesomeIcon className="icons" icon={faMobile} />
-                            +44 7738398290</h4>
+                        <a href="tel:07738398290">
+                            {emoji('\u{1F4F1}')}
+                            +44 7738398290</a>
                     </div>
                     <div className="email">
-                        <h4><FontAwesomeIcon className="icons" icon={faEnvelope} />
-                            best.amiker@gmail.com</h4>
+                        <a href="mailto:best.amiker@gmail.com"><FontAwesomeIcon className="icons" icon={faEnvelope} />
+                            best.amiker@gmail.com</a>
                     </div>
                 </div>
 

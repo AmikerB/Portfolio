@@ -1,7 +1,7 @@
 [
     {
         "name": "Weather Dasboard",
-        "image": "./assets/images/amikerb.github.io_Weather-Dashboard_.png",
+        "image": "amikerb.github.io_Weather-Dashboard_.png",
         "details": "descrition about the project",
         "pageLink": "https://amikerb.github.io/Weather-Dashboard/",
         "sourceLink": "https://github.com/AmikerB/Weather-Dashboard"

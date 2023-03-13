@@ -1,16 +1,23 @@
-h4 {
+.footer a {
     font-size: 1.2rem;
     padding-bottom: 0.7rem;
+    color: var(--light)
 }
 
-p {
+.phone .icons:hover,
+.email .icons:hover {
+    color: var(--bright)
+}
+
+.footer p {
     font-size: 1.2rem;
+    color: var(--light);
 }
 
 .footer {
     width: 100%;
     padding: 6rem 0;
-    background-color: var(--primary);
+    background-color: var(--dark);
 }
 
 .footer-container {
@@ -48,12 +55,12 @@ p {
 
 .icons {
     font-size: 25px;
-    color: var(--secondary);
+    color: var(--light);
     margin-right: 2rem;
 }
 
 .social .icons:hover {
-    color: yellow
+    color: var(--bright)
 }
 
 /* add hover effect to icons */
