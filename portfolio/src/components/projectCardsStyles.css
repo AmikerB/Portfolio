@@ -1,6 +1,6 @@
-.project-heading {
+.project-title {
     text-align: center;
-    padding: 4rem 0 2rem 0;
+    color: var(--secondary);
 }
 
 .project-container {
@@ -19,6 +19,7 @@
     border-radius: 10px;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
+    height: 100%;
 }
 
 .project-card:hover {
@@ -28,11 +29,6 @@
 
 .project-card img {
     width: 100%;
-}
-
-.project-title {
-    color: var(--secondary);
-    padding: 1rem 0;
 }
 
 .pro-details p {
@@ -49,14 +45,14 @@
 
 @media screen and (max-width: 740px) {
     .project-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
     }
 
     .project-card {
         width: 100%;
         margin-bottom: 2rem;
     }
+
 }
