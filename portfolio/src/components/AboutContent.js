@@ -20,7 +20,6 @@ const AboutContent = () => {
                         <a href={MyCv} target="_blank" rel="noopener noreferrer" className="btn">
                             CV
                         </a>
-
                     </div>
                 </div>
                 <div className="right">

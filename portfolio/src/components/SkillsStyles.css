@@ -1,11 +1,12 @@
 .bottom {
-    padding: 30px;
-    background-color: var(--dark);
-    color: var(--light);
+    padding-top: 0;
+    padding-bottom: 5rem;
+    background-color: var(--light);
+    color: var(--dark);
 }
 
 .bottom h1 {
-    color: var(--light);
+    color: var(--dark);
     text-align: center;
     margin-bottom: 12px;
 }
@@ -15,7 +16,37 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    padding: 0 20rem;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 25%;
+    /* set the width of each skill to 25% of the container */
+    margin: 1.2rem;
+}
+
+.skill div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill .icons {
+    display: flex;
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.project-btn-container {
+    display: flex;
+    justify-content: center;
+    padding: 3rem 0 0 0
 }
 
 p {
