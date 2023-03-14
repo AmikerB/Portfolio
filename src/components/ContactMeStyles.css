@@ -22,7 +22,6 @@
     margin-top: 4rem;
     color: var(--dark);
     font-size: 50px;
-    color: var(--dark);
     margin-right: 2rem;
 }
 
@@ -31,4 +30,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width:1040px) {
+    .contactTop {
+        display: block;
+    }
+
+    .contactLeft,
+    .contactRight {
+        padding-bottom: 3rem;
+    }
+
 }

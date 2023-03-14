@@ -51,4 +51,23 @@
     .footer-container {
         grid-template-columns: 1fr;
     }
+
+    .footer h2 {
+        font-size: 15px;
+    }
+
+    .footer a,
+    .footer p {
+        font-size: 12px;
+    }
+
+    .footer-left,
+    .footer-middle,
+    .footer-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 1rem;
+    }
 }

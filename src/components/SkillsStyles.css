@@ -61,7 +61,11 @@ p {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        height: 75vh;
         /* adjust as needed */
+    }
+
+    .skills {
+        padding: 0;
     }
 }
