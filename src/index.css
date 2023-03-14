@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+  --dark: rgb(3, 27, 3);
+  --light: #E8E7E3;
+  --bright: rgb(255, 166, 0);
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background: var(--dark);
+}
+
+h1,
+h4,
+a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.dotted-line {
+  background-color: #E8E7E3;
+  border-top: 10px dotted white;
+}
+
+.dotted-line-dark {
+  background-color: transparent;
+  border-top: 10px dotted white;
+  margin-top: -5px;
+}
+
+.btn {
+  color: var(--dark);
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid var(--dark);
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 10px;
+}
+
+.btn:after {
+  content: "";
+  background-color: var(--bright);
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.btn:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+.email:hover,
+.phone:hover {
+  color: var(--bright)
+}
+
+.workContainer {
+  background-color: var(--dark);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 10vh;
+  padding: 10px
+}
+
+@media (min-width: 768px) {
+  .btn {
+    padding: 13px 50px 13px;
+  }
+}
