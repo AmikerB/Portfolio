@@ -3,7 +3,9 @@ import "./NavbarStyles.css";
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaTimes } from "react-icons/fa";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBurger } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
     // event listener to take user to page they clicked on
@@ -48,7 +50,7 @@ const Navbar = () => {
                 </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
-                {click ? (<FaTimes className="ex" />) : (<FaBars />)}
+                {click ? (<FaTimes className="ex" />) : (<FontAwesomeIcon className={textColor ? "content content-light" : "content"} icon={faBurger} />)}
             </div>
         </div>
     )

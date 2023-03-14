@@ -47,6 +47,11 @@
     color: var(--secondary);
 }
 
+.content:hover,
+.ex:hover {
+    color: var(--bright);
+}
+
 @media screen and (max-width: 1040px) {
     .nav-menu {
         flex-direction: column;
