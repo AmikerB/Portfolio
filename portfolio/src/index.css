@@ -7,7 +7,6 @@
 
 }
 
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -107,6 +106,10 @@ ul {
 .btn-light:hover:after {
   top: 0px;
   left: 0px;
+}
+
+.email:hover {
+  color: var(--bright)
 }
 
 @media (min-width: 768px) {

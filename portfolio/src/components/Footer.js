@@ -31,7 +31,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="email">
-                        <a href="mailto:best.amiker@gmail.com"><FontAwesomeIcon className="icons" icon={faEnvelope} />
+                        <a href="mailto:best.amiker@gmail.com" rel="noreferrer" target="_blank"><FontAwesomeIcon className="icons" icon={faEnvelope} />
                             <div>
                                 <p>best.amiker@gmail.com</p>
                             </div>
