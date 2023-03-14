@@ -15,7 +15,7 @@ const Projects = () => {
                 <Hero2 heading="PROJECTS" text="Check out some of my work" />
                 <div className="workContainer">
                     {projectData.map((project) => (
-                        <ProjectCards key={project.name} name={project.name} image={project.image} details={project.details} pageLink={project.pageLink} pageSource={project.pageSource} />
+                        <ProjectCards key={project.name} name={project.name} image={project.image} details={project.details} pageLink={project.pageLink} pageSource={project.sourceLink} />
                     ))}
                 </div>
             </Wrapper>

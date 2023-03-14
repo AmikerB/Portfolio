@@ -19,7 +19,7 @@ function ProjectCards(props) {
                         <NavLink to={props.pageLink} className="btn">
                             View
                         </NavLink>
-                        <NavLink to={props.sourceLink} className="btn">
+                        <NavLink to={props.pageSource} className="btn">
                             Source
                         </NavLink>
                     </div>

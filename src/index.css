@@ -47,7 +47,6 @@ ul {
   letter-spacing: 1px;
   padding: 13px 20px 13px;
   outline: 0;
-  border: 1px solid var(--dark);
   cursor: pointer;
   position: relative;
   background-color: rgba(0, 0, 0, 0);
@@ -55,21 +54,29 @@ ul {
   -webkit-user-select: none;
   touch-action: manipulation;
   margin: 10px;
+  z-index: 1;
 }
 
-.btn:after {
+.btn:before {
   content: "";
   background-color: var(--bright);
   width: 100%;
-  z-index: -1;
   position: absolute;
   height: 100%;
   top: 7px;
   left: 7px;
   transition: 0.2s;
+  z-index: -1;
 }
 
-.btn:hover:after {
+.btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid var(--dark);
+}
+
+.btn:hover:before {
   top: 0px;
   left: 0px;
 }
@@ -91,5 +98,11 @@ ul {
 @media (min-width: 768px) {
   .btn {
     padding: 13px 50px 13px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .workContainer {
+    grid-template-columns: 1fr;
   }
 }
