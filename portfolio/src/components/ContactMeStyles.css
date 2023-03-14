@@ -2,7 +2,6 @@
     background-color: var(--light);
 }
 
-
 .contactTop {
     display: flex;
     flex-direction: row;
@@ -20,8 +19,11 @@
 }
 
 .contactBottom .icons {
-    margin-top: 6rem;
+    margin-top: 4rem;
     color: var(--dark);
+    font-size: 50px;
+    color: var(--dark);
+    margin-right: 2rem;
 }
 
 .contactBottom {

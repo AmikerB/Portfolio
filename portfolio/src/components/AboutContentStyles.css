@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 50px 0;
-    background-color: #E8E7E3;
+    margin: 0 3rem;
 }
 
 .about h1 {
@@ -18,11 +18,18 @@
     line-height: 1.5;
     color: #666;
     margin-bottom: 30px;
+    text-align: justify;
 }
 
 .about .left {
     width: 60%;
     padding-right: 50px;
+}
+
+.about .left .icons {
+    font-size: 16px;
+    color: var(--dark);
+    margin: 0 1rem 0 0;
 }
 
 .about .right {

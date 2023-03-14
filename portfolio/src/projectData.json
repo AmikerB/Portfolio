@@ -2,42 +2,42 @@
     {
         "name": "Weather Dasboard",
         "image": "weather.jpg",
-        "details": "descrition about the project",
+        "details": "Search for the weather forecast in any city.",
         "pageLink": "https://amikerb.github.io/Weather-Dashboard/",
         "sourceLink": "https://github.com/AmikerB/Weather-Dashboard"
     },
     {
         "name": "JavaScript Quiz",
         "image": "javascript.jpg",
-        "details": "descrition about the project",
+        "details": "Test your JavaScript knowledge.",
         "pageLink": "https://amikerb.github.io/JavaScript-Quiz/",
         "sourceLink": "https://github.com/AmikerB/JavaScript-Quiz"
     },
     {
         "name": "Work Day Scheduler",
         "image": "workday.jpg",
-        "details": "descrition about the project",
+        "details": "Plan your workday hour by hour.",
         "pageLink": "https://amikerb.github.io/Work-Day-Scheduler/",
         "sourceLink": "https://github.com/AmikerB/Work-Day-Scheduler"
     },
     {
         "name": "Password Generator",
         "image": "password.jpg",
-        "details": "descrition about the project",
+        "details": "Need a new password?",
         "pageLink": "https://amikerb.github.io/Password-Generator/",
         "sourceLink": "https://github.com/AmikerB/Password-Generator"
     },
     {
         "name": "README Generator",
         "image": "readme.jpg",
-        "details": "descrition about the project",
+        "details": "Quickly generate a professional README for your project.",
         "pageLink": "https://github.com/AmikerB/README-Generator",
         "sourceLink": "https://github.com/AmikerB/README-Generator"
     },
     {
         "name": "Team Generator",
         "image": "team.jpg",
-        "details": "descrition about the project",
+        "details": "Display your team members ona simple webpage.",
         "pageLink": "https://github.com/AmikerB/Team-Profile-Generator",
         "sourceLink": "https://github.com/AmikerB/Team-Profile-Generator"
     }

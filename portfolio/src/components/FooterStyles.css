@@ -1,65 +1,46 @@
-.footer a {
-    font-size: 1.2rem;
-    padding-bottom: 0.7rem;
-    color: var(--light)
-}
-
-.footer a:hover {
-    color: var(--bright)
-}
-
-.phone .icons:hover,
-.email .icons:hover {
-    color: var(--bright)
-}
-
-.footer p {
-    font-size: 1.2rem;
-    color: var(--light);
-}
-
 .footer {
-    width: 100%;
-    padding: 6rem 0;
     background-color: var(--dark);
 }
 
-.footer-container {
+.footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3rem;
+    color: var(--light)
+}
+
+.footer a {
+    color: var(--light)
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.navTop {
-    display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    align-items: center;
+    padding: 0 3rem;
 }
 
-.navBottom {
+.footer-bottom {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.location p,
-.email a p,
-.phone a p {
-    margin: 1rem;
+.footer-bottom .icons {
+    margin: 3rem 1.5rem;
+    color: var(--light);
 }
 
-.location .icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.icons {
-    font-size: 50px;
+.footer .icons {
+    font-size: 30px;
     color: var(--light);
     margin-right: 2rem;
-    margin-bottom: 10px;
 }
 
 .social .icons:hover {
