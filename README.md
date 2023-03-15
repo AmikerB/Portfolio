@@ -1,6 +1,10 @@
 # Portfolio
 
-My portfolio created with a mobile-first design using React to showcase my web application to potential employers. The webpage features a home page, a navigation bar at the top, an about me page with a link to my CV, a portfolio page with links to my other websites, and a page on how to contact me.
+Employing a mobile-first approach and leveraging the power of React, I crafted a sleek and intuitive portfolio web application to impress prospective employers. My application boasts a seamless navigation bar, a captivating home page, an in-depth About Me section complete with a link to my CV, a comprehensive portfolio of my other websites, and a dedicated contact page for easy communication.
+
+## Screenshot of Application
+
+![alt text]()
 
 ## Credits 
 
