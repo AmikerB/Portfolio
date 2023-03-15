@@ -1,6 +1,6 @@
 # Portfolio
 
-Testing testing
+My portfolio created with a mobile-first design using React to showcase my web application to potential employers. The webpage features a home page, a navigation bar at the top, an about me page with a link to my CV, a portfolio page with links to my other websites, and a page on how to contact me.
 
 ## Credits 
 
