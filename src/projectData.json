@@ -1,35 +1,35 @@
 [
     {
         "name": "Weather Dasboard",
-        "image": "/public/images/amikerb.github.io_Weather-Dashboard_.png",
+        "image": "amikerb.github.io_Weather-Dashboard_.png",
         "details": "Search for the weather forecast in any city.",
         "pageLink": "https://amikerb.github.io/Weather-Dashboard/",
         "sourceLink": "https://github.com/AmikerB/Weather-Dashboard"
     },
     {
         "name": "JavaScript Quiz",
-        "image": "/public/images/amikerb.github.io_JavaScript-Quiz_index.html.png",
+        "image": "amikerb.github.io_JavaScript-Quiz_index.html.png",
         "details": "Test your JavaScript knowledge.",
         "pageLink": "https://amikerb.github.io/JavaScript-Quiz/",
         "sourceLink": "https://github.com/AmikerB/JavaScript-Quiz"
     },
     {
         "name": "Work Day Scheduler",
-        "image": "/public/images/amikerb.github.io_Work-Day-Scheduler_ (1).png",
+        "image": "amikerb.github.io_Work-Day-Scheduler_ (1).png",
         "details": "Plan your workday hour by hour.",
         "pageLink": "https://amikerb.github.io/Work-Day-Scheduler/",
         "sourceLink": "https://github.com/AmikerB/Work-Day-Scheduler"
     },
     {
         "name": "Password Generator",
-        "image": "/public/images/amikerb.github.io_Password-Generator_.png",
+        "image": "amikerb.github.io_Password-Generator_.png",
         "details": "Need a new password?",
         "pageLink": "https://amikerb.github.io/Password-Generator/",
         "sourceLink": "https://github.com/AmikerB/Password-Generator"
     },
     {
         "name": "README Generator",
-        "image": "/public/images/READM_generator.png",
+        "image": "READM_generator.png",
         "details": "Quickly generate a professional README for your project.",
         "pageLink": "https://github.com/AmikerB/README-Generator",
         "sourceLink": "https://github.com/AmikerB/README-Generator"
