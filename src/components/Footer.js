@@ -20,7 +20,7 @@ const Footer = () => {
                 </div>
                 <div className="footer-middle">
                     <h2><FontAwesomeIcon className="icons" icon={faMobile} />Phone</h2>
-                    <a className="phone" href="tel:07738398290">+44 7738398290</a>
+                    <a className="phone" href="tel:07738398290">+44 773 839 8290</a>
                 </div>
             </div>
             <div className="footer-bottom">

@@ -20,7 +20,8 @@ body {
 
 h1,
 h4,
-a {
+a,
+label {
   color: var(--dark);
   text-decoration: none;
 }

@@ -1,6 +1,7 @@
 import "./ContactMeStyles.css";
 
 import React from 'react';
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
@@ -8,17 +9,32 @@ const ContactMe = () => {
     return (
         <div className="dotted-line">
             <div className="contactContainer">
-                <div className="contactTop">
-                    <div className="contactLeft">
-                        <h2>Email</h2>
-                        <a className="email" href="mailto:best.amiker@gmail.com">best.amiker@gmail.com</a>
-                    </div>
-                    <div className="contactRight">
+                <div className="formContainer">
+                    <form>
+                        <label htmlFor="name"></label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required />
+                        <label htmlFor="email"></label>
+                        <input type="email" id="email" name="email" placeholder="Your email" required />
+                        <label htmlFor="message"></label>
+                        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+                        <div className="submit-btn">
+                            <Link to="/projects" className="btn">Submit</Link>
+                        </div>
+                    </form>
+                </div>
+                <div className="contactRight">
+                    <div className="contactBase">
                         <h2>Based In</h2>
                         <p>London, UK</p>
                     </div>
-                </div>
-                <div className="contactBottom">
+                    <div className="contactEmail">
+                        <h2>Email</h2>
+                        <a className="email" href="mailto:best.amiker@gmail.com">best.amiker@gmail.com</a>
+                    </div>
+                    <div className="contactEmail">
+                        <h2>Phone</h2>
+                        <a className="email" href="tel:07738398290">+44 773 839 8290</a>
+                    </div>
                     <div className="social">
                         <a href="https://www.linkedin.com/in/amikerbest/" rel="noreferrer" target="_blank">
                             <FontAwesomeIcon className="icons" icon={faLinkedin} />
@@ -33,6 +49,7 @@ const ContactMe = () => {
                 </div>
             </div>
         </div>
+
     )
 }
 
