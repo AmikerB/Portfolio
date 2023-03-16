@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.34899df7.css",
-    "main.js": "/static/js/main.11a8bfa8.js",
-    "static/media/pexels-scott-webb-403575.jpg": "/static/media/pexels-scott-webb-403575.4d65c0f0220a13d8733b.jpg",
-    "static/media/me.jpg": "/static/media/me.69e40b09e40e7d6f0ab7.jpg",
-    "static/media/Amiker Best Resume 2023.pdf": "/static/media/Amiker Best Resume 2023.878b1b38e31b3ea03768.pdf",
-    "static/media/pexels-photo-403571.jpeg": "/static/media/pexels-photo-403571.7ce634888b92b4269d53.jpeg",
-    "index.html": "/index.html",
-    "main.34899df7.css.map": "/static/css/main.34899df7.css.map",
-    "main.11a8bfa8.js.map": "/static/js/main.11a8bfa8.js.map"
+    "main.css": "/Portfolio/static/css/main.34899df7.css",
+    "main.js": "/Portfolio/static/js/main.9003585d.js",
+    "static/media/pexels-scott-webb-403575.jpg": "/Portfolio/static/media/pexels-scott-webb-403575.4d65c0f0220a13d8733b.jpg",
+    "static/media/me.jpg": "/Portfolio/static/media/me.69e40b09e40e7d6f0ab7.jpg",
+    "static/media/Amiker Best Resume 2023.pdf": "/Portfolio/static/media/Amiker Best Resume 2023.878b1b38e31b3ea03768.pdf",
+    "static/media/pexels-photo-403571.jpeg": "/Portfolio/static/media/pexels-photo-403571.7ce634888b92b4269d53.jpeg",
+    "index.html": "/Portfolio/index.html",
+    "main.34899df7.css.map": "/Portfolio/static/css/main.34899df7.css.map",
+    "main.9003585d.js.map": "/Portfolio/static/js/main.9003585d.js.map"
   },
   "entrypoints": [
     "static/css/main.34899df7.css",
-    "static/js/main.11a8bfa8.js"
+    "static/js/main.9003585d.js"
   ]
 }
