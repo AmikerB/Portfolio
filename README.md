@@ -4,7 +4,7 @@ Employing a mobile-first approach and leveraging the power of React, I crafted a
 
 ## Screenshot of Application
 
-![alt text]()
+![alt text](./public/images/Screenshot.png)
 
 ## Credits 
 
