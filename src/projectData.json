@@ -23,7 +23,7 @@
     {
         "name": "Password Generator",
         "image": "amikerb.github.io_Password-Generator_.png",
-        "details": "Need a new password?",
+        "details": "Easily generate a customized password with your preferred length and characters.",
         "pageLink": "https://amikerb.github.io/Password-Generator/",
         "sourceLink": "https://github.com/AmikerB/Password-Generator"
     },
@@ -37,7 +37,7 @@
     {
         "name": "Team Generator",
         "image": "Team_generator.png",
-        "details": "Display your team members ona simple webpage.",
+        "details": "Display your team members on a simple webpage.",
         "pageLink": "https://github.com/AmikerB/Team-Profile-Generator",
         "sourceLink": "https://github.com/AmikerB/Team-Profile-Generator"
     }

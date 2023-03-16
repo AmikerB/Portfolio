@@ -16,7 +16,10 @@ const Hero = () => {
                 <p>Amiker Best</p>
                 <h1>Frontend Engineer</h1>
                 <div>
-                    <Link to="/projects" className="btn">Projects</Link>
+                    <Link to="/projects" className="btn" onClick={() => window.scrollTo(0, 0)}>
+                        Projects
+                    </Link>
+
                     <a href="https://github.com/AmikerB" target="_blank" rel="noopener noreferrer" className="btn">GitHub</a>
                 </div>
             </div>

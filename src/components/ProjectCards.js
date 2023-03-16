@@ -17,12 +17,13 @@ function ProjectCards(props) {
                 <div className="pro-details">
                     <p> {props.details} </p>
                     <div className="pro-btns">
-                        <NavLink to={props.pageLink} className="btn">
+                        <NavLink to={props.pageLink} className="btn" target="_blank" rel="noopener noreferrer">
                             View
                         </NavLink>
-                        <NavLink to={props.pageSource} className="btn">
+                        <NavLink to={props.pageSource} className="btn" target="_blank" rel="noopener noreferrer">
                             Source
                         </NavLink>
+
                     </div>
                 </div>
             </div>

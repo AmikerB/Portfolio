@@ -18,7 +18,7 @@ const ContactMe = () => {
                         <label htmlFor="message"></label>
                         <textarea id="message" name="message" placeholder="Your message" required></textarea>
                         <div className="submit-btn">
-                            <Link to="/projects" className="btn">Submit</Link>
+                            <Link to="" className="btn">Submit</Link>
                         </div>
                     </form>
                 </div>

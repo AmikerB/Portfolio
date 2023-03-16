@@ -29,24 +29,24 @@ const Navbar = () => {
 
     return (
         <div className={color ? "header header-bg" : "header"}>
-            <Link to="/">
+            <Link to="/" onClick={() => window.scrollTo(0, 0)}>
                 <h1 className={textColor ? "content content-light" : "content"}>Portfolio</h1>
             </Link>
             <ul className={click ? "nav-menu active" : "nav-menu"} >
                 <li>
-                    <Link className={textColor ? "content content-light" : "content"} to="/">Home</Link>
+                    <Link className={textColor ? "content content-light" : "content"} to="/" onClick={() => window.scrollTo(0, 0)}>Home</Link>
                 </li>
                 <li>
-                    <Link className={textColor ? "content content-light" : "content"} to="/About">About Me</Link>
+                    <Link className={textColor ? "content content-light" : "content"} to="/About" onClick={() => window.scrollTo(0, 0)}>About Me</Link>
                 </li>
                 <li>
-                    <Link className={textColor ? "content content-light" : "content"} to="/Projects">Projects</Link>
+                    <Link className={textColor ? "content content-light" : "content"} to="/Projects" onClick={() => window.scrollTo(0, 0)}>Projects</Link>
                 </li>
                 <li>
                     <a className={textColor ? "content content-light" : "content"} href="https://github.com/AmikerB" rel="noreferrer" target="_blank">GitHub</a>
                 </li>
                 <li>
-                    <Link className={textColor ? "content content-light" : "content"} to="/Contact">Contact</Link>
+                    <Link className={textColor ? "content content-light" : "content"} to="/Contact" onClick={() => window.scrollTo(0, 0)}>Contact</Link>
                 </li>
             </ul>
             <div className="hamburger" onClick={handleClick}>
