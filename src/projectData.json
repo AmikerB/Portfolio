@@ -1,7 +1,7 @@
 [
     {
         "name": "Weather Dasboard",
-        "image": "amikerb.github.io_Weather-Dashboard_.png",
+        "image": "weather.png",
         "details": "Search for the weather forecast in any city.",
         "pageLink": "https://amikerb.github.io/Weather-Dashboard/",
         "sourceLink": "https://github.com/AmikerB/Weather-Dashboard"

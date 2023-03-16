@@ -12,7 +12,7 @@ function ProjectCards(props) {
             <div className="project-card">
                 <img
                     alt={props.name}
-                    src={`/images/${props.image}`} />
+                    src={`${process.env.PUBLIC_URL}/images/${props.image}`} />
                 <h2 className="project-title"> {props.name} </h2>
                 <div className="pro-details">
                     <p> {props.details} </p>
