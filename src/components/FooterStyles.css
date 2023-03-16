@@ -37,9 +37,9 @@
 }
 
 .footer .icons {
-    font-size: 30px;
+    font-size: 25px;
     color: var(--light);
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 
 .social .icons:hover {
@@ -52,12 +52,12 @@
     }
 
     .footer h2 {
-        font-size: 15px;
+        font-size: 11px;
     }
 
     .footer a,
     .footer p {
-        font-size: 12px;
+        font-size: 9px;
     }
 
     .footer-left,
