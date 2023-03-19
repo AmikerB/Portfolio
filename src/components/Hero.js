@@ -3,6 +3,7 @@ import "./HeroStyles.css";
 import React from 'react';
 
 import IntroImg from "../assets/images/pexels-photo-403571.jpeg";
+import meImg from "../assets/images/me.jpg";
 
 import { Link } from "react-router-dom";
 
@@ -13,6 +14,7 @@ const Hero = () => {
                 <img className="intro-img" src={IntroImg} alt="IntroImg" />
             </div>
             <div className="content">
+                <img className="meImg" src={meImg} alt="Photograph of me" />
                 <p>Amiker Best</p>
                 <h1>Frontend Engineer</h1>
                 <div>
