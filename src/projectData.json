@@ -1,5 +1,12 @@
 [
     {
+        "name": "Plant Buddy",
+        "image": "plant_buddy.jpg",
+        "details": "Find your perfect plant match for your home.",
+        "pageLink": "https://deploy-preview-26--warm-croissant-8d430b.netlify.app/",
+        "sourceLink": "https://github.com/alicewestcreate/plant-buddy"
+    },
+    {
         "name": "Weather Dasboard",
         "image": "weather.png",
         "details": "Search for the weather forecast in any city.",
@@ -26,13 +33,6 @@
         "details": "Easily generate a customized password with your preferred length and characters.",
         "pageLink": "https://amikerb.github.io/Password-Generator/",
         "sourceLink": "https://github.com/AmikerB/Password-Generator"
-    },
-    {
-        "name": "README Generator",
-        "image": "READM_generator.png",
-        "details": "Quickly generate a professional README for your project.",
-        "pageLink": "https://github.com/AmikerB/README-Generator",
-        "sourceLink": "https://github.com/AmikerB/README-Generator"
     },
     {
         "name": "Team Generator",
